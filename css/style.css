@@ -89,8 +89,10 @@ header {
   margin-top: 1%;
 }
 
-.patientsRights {
+.patientsRights h2 {
+  text-align: center;
   margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .patientsRights .img {
@@ -101,6 +103,7 @@ header {
 .patientsRights .text {
   margin-right: 20%;
   margin-bottom: 10%;
+  text-align: justify;
 }
 
 .patientsRights .text a {
@@ -111,8 +114,14 @@ header {
   background-color: #d1d1d2;
 }
 
-.doctorsDuties .text {
+.doctorsDuties h2 {
+  text-align: center;
   margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.doctorsDuties .text {
+  text-align: justify;
   margin-left: 10%;
   margin-bottom: 10%;
 }
@@ -125,4 +134,40 @@ header {
 
 .doctorsDuties a {
   text-decoration: none;
+}
+
+.main-about-us {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.main-about-us h1 {
+  margin-bottom: 2%;
+}
+
+.main-about-us p {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.contact {
+  background-color: #d1d1d2;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.contact input, .contact textarea {
+  margin-bottom: 2%;
+  width: 60%;
+}
+
+.contact input {
+  height: 4rem;
 }
