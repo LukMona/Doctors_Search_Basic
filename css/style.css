@@ -155,10 +155,10 @@ header {
 .contact {
   background-color: #d1d1d2;
   margin: 0 auto;
+  text-align: center;
 }
 
 .contact h2 {
-  text-align: center;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -166,8 +166,25 @@ header {
 .contact input, .contact textarea {
   margin-bottom: 2%;
   width: 60%;
+  padding: 2%;
 }
 
 .contact input {
-  height: 4rem;
+  height: 2rem;
+}
+
+.contact .btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact button {
+  border: none;
+  background-color: #547dde;
+  text-transform: uppercase;
+  padding: 20%;
+  color: #ffffff;
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
 }
