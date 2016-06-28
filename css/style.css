@@ -2,7 +2,7 @@ header {
   width: 100%;
   background-image: url("../images/header_background.jpg");
   background-size: 100% auto;
-  padding-bottom: 37.39316%;
+  padding-bottom: 10%;
   background-repeat: no-repeat;
   margin-bottom: 0;
 }
@@ -18,7 +18,7 @@ header {
 }
 
 .main-top-header-left .logo h1 {
-  font-size: 2.5    rem;
+  font-size: 2.5rem;
 }
 
 .main-top-header-right {
@@ -37,7 +37,7 @@ header {
 
 .main-top-header-right .menu ul li {
   display: inline-block;
-  margin-left: 2%;
+  margin-left: 5%;
   font-size: 2rem;
 }
 
@@ -59,6 +59,11 @@ header {
   margin: 0 auto;
 }
 
+.main-search span:first-child {
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
 .main-search .search {
   float: left;
 }
@@ -78,4 +83,24 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.navigation-menu {
+  margin-top: 1%;
+}
+
+.patientsRights {
+  margin-top: 10%;
+}
+
+.patientsRights .img {
+  margin-left: 20%;
+}
+
+.patientsRights .text {
+  margin-right: 20%;
+}
+
+.patientsRights .text a {
+  text-decoration: none;
 }

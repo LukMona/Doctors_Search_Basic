@@ -2,9 +2,10 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Wyszukiwarka pozwalająca znaleź lekarzy, którzy podpisali klauzulę sumienia" />
   <meta name="keywords" content="klauzula sumienia, lekarze" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
   <!-- <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> -->
   <link rel="stylesheet" href="css/style.css"/>
@@ -38,8 +39,9 @@
 
         <div class="clearfix"></div>
 
-        <div class="main-search jumbotron vcenter">
+        <div class="main-search jumbotron">
           <div class="searching">
+            <span>Wpisz miasto, w którym szukasz lekarza</span><br>
             <input class="search" type="text" name="search" placeholder="Szukaj wg miasta...">
             <button class="search">
               <span>Szukaj</span>
@@ -52,29 +54,53 @@
   </header>
 
   <!-- NAVIGATION BAR -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+  <nav class="container-fluid navbar navbar-default">
+    <div class="row">
+      <div class="col-md-12">
 
-      <!-- LOGO -->
-      <div class="navbar-header">
-        <h1>
-          <a href="#" class="navbar-brand">
-            Dziewuchy Dziewuchom
-          </a>
-        </h1>
-      </div>
+        <!-- LOGO -->
+        <div class="navbar-header">
+          <h1>
+            <a href="#" class="navbar-brand">
+              Dziewuchy Dziewuchom
+            </a>
+          </h1>
+        </div>
 
-      <!-- MENU ITEMS -->
-      <div class="navigation-menu">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Prawa pacjentki</a></li>
-          <li><a href="#">Obowiązki lekarza</a></li>
-          <li><a href="#">O nas</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
+        <!-- MENU ITEMS -->
+        <div class="navigation-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Prawa pacjentki</a></li>
+            <li><a href="#">Obowiązki lekarza</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav> <!-- END OF NAV -->
+
+  <!-- PATIENTS RIGHT -->
+  <section class="container-fluid patientsRights">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img">
+        <img src="images/patients_rights.jpg">
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text">
+        <p>
+          Cupcake ipsum dolor. Sit amet donut fruitcake chocolate cake. Dessert donut gummies danish topping bonbon cupcake. Sugar plum donut topping cake lemon drops carrot cake apple pie chupa chups bonbon. Sesame snaps gummies donut pastry danish gummi bears jelly-o gingerbread jelly beans. Apple pie cheesecake cupcake. Gummies croissant icing liquorice dessert cookie biscuit sugar plum marshmallow. Chocolate cake tart chocolate. Sweet roll jelly beans chocolate bar carrot cake bear claw. Macaroon soufflé muffin dragée. Muffin cake soufflé halvah liquorice icing cake soufflé. Powder sesame snaps muffin pastry wafer marshmallow. Brownie gummies apple pie sugar plum. Jelly beans jelly beans brownie sweet lollipop jujubes liquorice sweet candy canes.
+        </p>
+        <p>
+          Cupcake ipsum dolor sit amet apple pie. Tiramisu marzipan gummies fruitcake cake donut. Gummi bears topping tootsie roll candy canes marzipan. Tootsie roll wafer apple pie sugar plum pastry dragée dessert donut. Jelly wafer cake toffee cotton candy apple pie. Pie gummies apple pie sugar plum. Jujubes topping halvah sesame snaps marzipan jelly beans croissant sugar plum chocolate bar. Cheesecake pastry topping apple pie marshmallow oat cake croissant. Soufflé icing muffin chocolate bonbon jelly beans chocolate cake brownie. Bear claw caramels oat cake sweet pastry tart oat cake. Muffin muffin caramels sweet croissant croissant. Candy canes cotton candy muffin caramels. Wafer marzipan gummies oat cake danish cake.
+        </p>
+        <span><a href="#">Więcej</a></span>
+      </div>
+      </div>
+    </div>
+  </section> <!-- END OF PATIENTS RIGHT -->
 
 </body>
 
