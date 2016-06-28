@@ -95,12 +95,34 @@ header {
 
 .patientsRights .img {
   margin-left: 20%;
+  margin-bottom: 10%;
 }
 
 .patientsRights .text {
   margin-right: 20%;
+  margin-bottom: 10%;
 }
 
 .patientsRights .text a {
+  text-decoration: none;
+}
+
+.doctorsDuties {
+  background-color: #d1d1d2;
+}
+
+.doctorsDuties .text {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.doctorsDuties .img {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.doctorsDuties a {
   text-decoration: none;
 }
