@@ -1,62 +1,85 @@
-header {
-  width: 100%;
-  background-image: url("../images/header_background.jpg");
-  background-size: 100% auto;
-  padding-bottom: 10%;
-  background-repeat: no-repeat;
-  margin-bottom: 0;
+.container-fluid:first-child {
+  padding: 0;
 }
 
-.main-top-header-left {
-  float: left;
-  width: 50%;
+.main-header {
+  margin: 0 auto;
 }
 
-.main-top-header-left .logo {
-  margin-left: 5%;
+.bg-img {
+  padding-bottom: 43.09117%;
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+.main-top-header {
+  width: 90%;
   margin-top: 2%;
-}
-
-.main-top-header-left .logo h1 {
-  font-size: 2.5rem;
-}
-
-.main-top-header-right {
-  float: right;
-  width: 50%;
-}
-
-.main-top-header-right .menu {
+  margin-left: 5%;
   margin-right: 5%;
-  margin-top: 4%;
 }
 
-.main-top-header-right .menu ul {
+.main-top-header .main-top-header-left {
+  float: left;
+  position: relative;
+  width: 25%;
+  margin: 0;
+}
+
+.main-top-header .main-top-header-left .logo {
+  margin: 0;
+}
+
+.main-top-header .main-top-header-left .logo h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.main-top-header .main-top-header-right {
+  float: right;
+  width: 75%;
+}
+
+.main-top-header .main-top-header-right .menu ul {
   text-align: right;
 }
 
-.main-top-header-right .menu ul li {
+.main-top-header .main-top-header-right .menu ul li {
   display: inline-block;
   margin-left: 5%;
   font-size: 2rem;
 }
 
-.main-top-header-right .menu a:link {
+.main-top-header .main-top-header-right .menu a:link {
   color: inherit;
   text-decoration: none;
 }
 
-.main-top-header-right .menu a:hover {
+.main-top-header .main-top-header-right .menu a:hover {
   color: #547dde;
 }
 
 .main-search {
-  margin-top: 15%;
+  background-color: #d1d1d2;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border-radius: 3%;
+  position: relative;
+  top: 10rem;
 }
 
 .main-search .searching {
   width: 50%;
   margin: 0 auto;
+}
+
+.main-search .searching .find {
+  width: 80%;
+  background-color: #d1d1d2;
 }
 
 .main-search span:first-child {
@@ -85,8 +108,10 @@ header {
   display: inline-block;
 }
 
-.navigation-menu {
-  margin-top: 1%;
+nav {
+  background-color: #7a797c;
+  position: absolute;
+  width: 100%;
 }
 
 .patientsRights h2 {
@@ -100,10 +125,23 @@ header {
   margin-bottom: 10%;
 }
 
+@media (max-width: 991px) {
+  .patientsRights .img {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
 .patientsRights .text {
   margin-right: 20%;
   margin-bottom: 10%;
   text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .patientsRights .text {
+    margin-right: 0;
+  }
 }
 
 .patientsRights .text a {
@@ -126,10 +164,24 @@ header {
   margin-bottom: 10%;
 }
 
+@media (max-width: 991px) {
+  .doctorsDuties .text {
+    margin-left: 0;
+  }
+}
+
 .doctorsDuties .img {
   margin-top: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
+}
+
+@media (max-width: 991px) {
+  .doctorsDuties .img {
+    margin-right: 0;
+    margin-top: 0;
+    text-align: center;
+  }
 }
 
 .doctorsDuties a {
@@ -184,7 +236,19 @@ header {
   text-transform: uppercase;
   padding: 20%;
   color: #ffffff;
-  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
-  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+footer {
+  background-color: #d1d1d2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .footer-main {
+  margin-top: 5%;
+}
+
+footer .footer-main a {
+  color: inherit;
+  text-decoration: none;
 }
