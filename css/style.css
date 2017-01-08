@@ -311,4 +311,5 @@ footer .footer-main {
 footer .footer-main a {
   color: inherit;
   text-decoration: none;
+  margin: 0 auto;
 }
